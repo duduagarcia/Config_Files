@@ -10,7 +10,6 @@ Sinta-se a vontade para se inspirar ou copiar alguma configuração, mas vale di
 2. [Configuração do browser](#2)
 3. [Configuração do Windows Terminal](#3)
 4. [Configuração do Oh My Posh](#4) 
-5. [Configuração do VS Code]()
 <br>
 <br>
 
@@ -110,3 +109,5 @@ Get-PoshThemes
 <p>
 Uma vez dentro do diretório, basta inserir o arquivo do tema <b>dudu.json</b> na pasta e pronto.
 </p>
+<br>
+<br>
