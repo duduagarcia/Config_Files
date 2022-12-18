@@ -53,7 +53,18 @@ winget install 9NHL4NSC67WM;winget install 9NBLGGH516XP;winget install Discord.D
 - [BO2](https://plutonium.pw/pluto_t6_full_game.torrent)
 <br>
 <br>
+
 ## 2 - Configuração do browser
 <p name="2">
 Aqui não tem segredo, basta baixar as extensões abaixo e ao abrir o menu da página inicial usuando a extensão <b>NightTab</b> exportar o <a href="/nightTab backup - 2022.12.09 - 15 02 03.json">JSON</a> de configuração presente neste repositório
 </p>
+
+<p>Segue abaixo a lista de extensões</p>
+
+- [NightTab](https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki)
+- [Vue DevTools]()
+- [SVG Export]()
+- [Save & Repost for Instagram]()
+- [Motion Dev Tools]()
+- [Fonts Ninja]()
+- [CSS Peeper]()
