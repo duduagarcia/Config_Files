@@ -8,8 +8,8 @@ Sinta-se a vontade para se inspirar ou copiar alguma configuração, mas vale di
 ## SUMÁRIO
 1. [Instação de softwares e packages](#1)
 2. [Configuração do browser](#2)
-3. [Configuração do Windows Terminal]()
-4. [Configuração do Oh My Posh]() 
+3. [Configuração do Windows Terminal](#3)
+4. [Configuração do Oh My Posh](#4) 
 5. [Configuração do VS Code]()
 <br>
 <br>
@@ -62,9 +62,51 @@ Aqui não tem segredo, basta baixar as extensões abaixo e ao abrir o menu da p�
 <p>Segue abaixo a lista de extensões</p>
 
 - [NightTab](https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki)
-- [Vue DevTools]()
-- [SVG Export]()
-- [Save & Repost for Instagram]()
-- [Motion Dev Tools]()
-- [Fonts Ninja]()
-- [CSS Peeper]()
+- [Vue DevTools](https://microsoftedge.microsoft.com/addons/detail/vuejs-devtools/olofadcdnkkjdfgjcmjaadnlehnnihnl)
+- [SVG Export](https://microsoftedge.microsoft.com/addons/detail/svg-export/eehngmhcinichpjooegigoineafdfekl)
+- [Save & Repost for Instagram](https://chrome.google.com/webstore/detail/save-repost-for-instagram/olmfgbcgfadifpdcompkdbgdifojjdlg)
+- [Motion Dev Tools](https://chrome.google.com/webstore/detail/motion-devtools/mnbliiaiiflhmnndmoidhddombbmgcdk)
+- [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh)
+- [CSS Peeper](https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk)
+<br>
+<br>
+
+## 3 - Configuração do Windows Terminal
+<p name="3">
+O primeiro passo é baixar uma Nerd Font, eu particularmente prefiro a <a href="https://www.nerdfonts.com/font-downloads">Hack NF</a>. Posteriormente no Windows terminal, basta copiar todo o JSON <b>settings_terminal.json</b> e substituir no json de config do próprio windows terminal.
+</p>
+<p>
+Agora falta configurar o arquivo <b>$PROFILE</b> do powershell, onde no diretório <i>Documents</i> do <i>root</i>, basta dar o comando 
+</p>
+
+```
+notepad $PROFILE
+```
+
+<p>
+E em seguida copiar as configurações do arquivo <b>Microsoft.PowerShell_profile.ps1</b> e pronto, temos o powershell com Alias customizados. Vale dizer que ao carregar um novo terminal, existirão erros devido a falta dos módulos instalados, coisa que vamos corrigir a seguir.
+</p>
+
+<br>
+<br>
+
+## 4 - Configuração do Oh My Posh
+<p name="4">
+Uma vez com o Windows terminal configurado, basta rodar o comando
+</p>
+
+```
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+<p>
+Depois devemos abrir o a pasta onde se localizam os temas do Oh My Posh, para descobrir o path, basta rodar o comando abaixo, que após carregar todos os temas disponíveis, aparecerá o link para o path e basta clicar com <i>ctrl</i> em cima do path.
+</p>
+
+```
+Get-PoshThemes
+```
+
+<p>
+Uma vez dentro do diretório, basta inserir o arquivo do tema <b>dudu.json</b> na pasta e pronto.
+</p>
