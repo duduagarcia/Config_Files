@@ -13,3 +13,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-Alias cl clear
 Set-Alias ll ls
 Set-Alias g git
+Set-Alias file nfile 
+
+#Functions para os Alias
+Function nfile {New-Item $args -ItemType file}
