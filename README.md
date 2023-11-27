@@ -1,24 +1,25 @@
 # Minhas principais configs do PC
+
 Esse é um repositório destinado a ser uma espécie de backup de arquivos de configurações e uma espécie de roadmap caso haja uma formatação na minha maquína ou algo que me leve a perder meus aplicativos e configurações.<br><br>
 Sinta-se a vontade para se inspirar ou copiar alguma configuração, mas vale dizer que todas elas foram feitas e voltadas para o windows.
 <br>
 <br>
 
- 
 ## SUMÁRIO
+
 1. [Instação de softwares e packages](#1)
 2. [Configuração do browser](#2)
 3. [Configuração do Windows Terminal](#3)
-4. [Configuração do Oh My Posh](#4) 
-<br>
-<br>
+4. [Configuração do Oh My Posh](#4)
+   <br>
+   <br>
 
 ## 1 - Instalação de softwares e packages
+
 <p name="1">
 Faremos a instalação de softwares como Figma, Discord dentre outros via winget, o gerenciador de pacotes do windows, assim dessa forma não é necessário ficar baixando instaladores.
 </p>
 <p>Basta executar o windows terminal como administrador, afim de evitar as telas de confirmação que aparecem ao baixar os apps e rodar o seguinte comando abaxo</p>
-
 
 ```
 winget install 9NHL4NSC67WM;winget install 9NBLGGH516XP;winget install Discord.Discord;winget install Figma.Figma;winget install RARLab.WinRAR; winget install Google.Chrome;winget install XP89DCGQ3K6VLD;winget install EpicGames.EpicGamesLauncher;winget install Telegram.TelegramDesktop;winget install OpenJS.NodeJS.LTS;winget install Valve.Steam;winget install 9WZDNCRD29V9;
@@ -50,10 +51,11 @@ winget install 9NHL4NSC67WM;winget install 9NBLGGH516XP;winget install Discord.D
 - [World at War](https://plutonium.pw/pluto_t4_full_game.torrent)
 - [BO1](https://plutonium.pw/pluto_t5_full_game.torrent)
 - [BO2](https://plutonium.pw/pluto_t6_full_game.torrent)
-<br>
-<br>
+  <br>
+  <br>
 
 ## 2 - Configuração do browser
+
 <p name="2">
 Aqui não tem segredo, basta baixar as extensões abaixo e ao abrir o menu da página inicial usuando a extensão <b>NightTab</b> exportar o <a href="/nightTab backup - 2022.12.09 - 15 02 03.json">JSON</a> de configuração presente neste repositório
 </p>
@@ -67,10 +69,11 @@ Aqui não tem segredo, basta baixar as extensões abaixo e ao abrir o menu da p�
 - [Motion Dev Tools](https://chrome.google.com/webstore/detail/motion-devtools/mnbliiaiiflhmnndmoidhddombbmgcdk)
 - [Fonts Ninja](https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh)
 - [CSS Peeper](https://chrome.google.com/webstore/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk)
-<br>
-<br>
+  <br>
+  <br>
 
 ## 3 - Configuração do Windows Terminal
+
 <p name="3">
 O primeiro passo é baixar uma Nerd Font, eu particularmente prefiro a <a href="https://www.nerdfonts.com/font-downloads">Hack NF</a>. Posteriormente no Windows terminal, basta copiar todo o JSON <b>settings_terminal.json</b> e substituir no json de config do próprio windows terminal.
 </p>
@@ -90,6 +93,7 @@ E em seguida copiar as configurações do arquivo <b>Microsoft.PowerShell_profil
 <br>
 
 ## 4 - Configuração do Oh My Posh
+
 <p name="4">
 Uma vez com o Windows terminal configurado, basta rodar o comando
 </p>
