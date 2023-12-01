@@ -13,7 +13,15 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-Alias cl clear
 Set-Alias ll ls
 Set-Alias g git
-Set-Alias file nfile 
+Set-Alias touch nfile
+
+# Criar alias para remover arquivos
+New-Alias -Name rm -Value Remove-Item -Force -Option AllScope
+
+# Criar alias para compactar & descompactar arquivos arquivos
+New-Alias -Name zip -Value Compress-Archive
+New-Alias -Name unzip -Value Expand-Archive
 
 #Functions para os Alias
 Function nfile {New-Item $args -ItemType file}
+
