@@ -21,7 +21,7 @@ Faremos a instalação de softwares como Figma, Discord dentre outros via winget
 </p>
 <p>Basta executar o windows terminal como administrador, afim de evitar as telas de confirmação que aparecem ao baixar os apps e rodar o seguinte comando abaxo e tudo vai acontecer automagicamente</p>
 
-```
+```prompt
 winget install 9NHL4NSC67WM;winget install 9NBLGGH516XP;winget install Discord.Discord;winget install Figma.Figma;winget install RARLab.WinRAR; winget install Google.Chrome;winget install XP89DCGQ3K6VLD;winget install EpicGames.EpicGamesLauncher;winget install Telegram.TelegramDesktop;winget install OpenJS.NodeJS.LTS;winget install Valve.Steam;winget install 9WZDNCRD29V9;winget install CoreyButler.NVMforWindows; winget install Microsoft.VisualStudioCode; winget install Git.Git; winget install Ryochan7.DS4Windows; winget install Obsidian.Obsidian; winget install SteelSeries.GG; winget install Oracle.JDK.18; winget install Axosoft.GitKraken; winget install Zoom.Zoom; winget install 9NCBCSZSJRSB;
 ```
 
@@ -81,10 +81,10 @@ Aqui não tem segredo, basta baixar as extensões abaixo e ao abrir o menu da p�
 O primeiro passo é baixar uma Nerd Font, eu particularmente prefiro a <a href="https://www.nerdfonts.com/font-downloads">Hack NF</a>. Posteriormente no Windows terminal, basta copiar todo o JSON <b>settings_terminal.json</b> e substituir no json de config do próprio windows terminal.
 </p>
 <p>
-Agora falta configurar o arquivo <b>$PROFILE</b> do powershell, onde no diretório <i>Documents</i> do <i>root</i>, basta dar o comando 
+Agora falta configurar o arquivo <b>$PROFILE</b> do powershell, onde no diretório <i>Documents</i> do <i>root</i>, basta dar o comando
 </p>
 
-```
+```prompt
 notepad $PROFILE
 ```
 
@@ -101,7 +101,7 @@ E em seguida copiar as configurações do arquivo <b>Microsoft.PowerShell_profil
 Uma vez com o Windows terminal configurado, basta rodar o comando
 </p>
 
-```
+```prompt
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
