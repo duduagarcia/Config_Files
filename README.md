@@ -106,4 +106,8 @@ Install-Module -Name Terminal-Icons -Scope CurrentUser
 Install-Module -Name PSReadLine -Scope CurrentUser -Force
 ```
 
+```prompt
+Install-Module z -AllowClobber
+```
+
 And to finish the configuration, run this command to find the path of the `oh my posh themes` and `cd` to there and drag and drop the  <a href="/dudu.json">dudu.json file</a> which contains the theme configuration

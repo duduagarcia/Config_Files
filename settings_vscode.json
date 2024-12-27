@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrains Mono,'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on",
+    // "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": true,
+    "files.exclude": {
+      "**/.DS_Store": false,
+      "**/.git": false
+    },
+    "editor.minimap.maxColumn": 50,
+    "editor.minimap.scale": 2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "FiraMono Nerd Font Mono",
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "extensions.ignoreRecommendations": true,
+    "symbols.hidesExplorerArrows": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+  "editor.stickyScroll.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "gitlens.graph.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "explorer.confirmDelete": false,
+    "[sql]": {
+      "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "dafny.verificationTimeLimit": 0
+  }
